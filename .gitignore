@@ -1,0 +1,97 @@
+# ==========================================
+# Laravel Environment & Local Credentials
+# ==========================================
+.env
+.env.backup
+.env.production
+.env.staging
+.env.*.local
+.env.local
+auth.json
+
+# ==========================================
+# Dependencies
+# ==========================================
+/vendor/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Application Storage & Logs
+# ==========================================
+*.log
+/storage/*.key
+/storage/pail/
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+!/storage/app/private/
+
+# ==========================================
+# Frontend Build Artifacts & Assets
+# ==========================================
+/public/build/
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# ==========================================
+# Local SQLite & Databases
+# ==========================================
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# ==========================================
+# Testing & Static Analysis Caches
+# ==========================================
+.phpunit.result.cache
+/.phpunit.cache/
+.phpactor.json
+
+# ==========================================
+# IDEs, Code Editors & Tooling
+# ==========================================
+.idea/
+.vscode/
+.zed/
+.cursor/
+.nova/
+.codex/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+Homestead.json
+Homestead.yaml
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
