@@ -65,6 +65,16 @@ pnpm-debug.log*
 .phpactor.json
 
 # ==========================================
+# AI Agents & Assistants Configuration
+# ==========================================
+/.agent/
+/.agents/
+/AGENTS.md
+/agents.md
+/CLAUDE.md
+/boost.json
+
+# ==========================================
 # IDEs, Code Editors & Tooling
 # ==========================================
 .idea/
